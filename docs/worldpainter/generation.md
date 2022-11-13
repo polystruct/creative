@@ -7,10 +7,10 @@ nav_order: 1
 
 # Generating World
 
-We can generate relatively nice looking terrain using [Azgaar's Fantasy Map
+I can generate relatively nice looking terrain using [Azgaar's Fantasy Map
 Generator](https://azgaar.github.io/Fantasy-Map-Generator/).
 
-I generally use the following settings. First, select heightmap and deselect
+Generally, I use the following settings. First, select heightmap and deselect
 rivers.  Then, in the *Styles* menu:
 
 - select *Monochrome* for style preset
@@ -27,20 +27,20 @@ rivers.  Then, in the *Styles* menu:
 When exporting, scale here rather than in WorldPainter (a scale of 3 seems to
 work fine).
 
-Keep the map open, because we also generate additional information which we can
-later import as masks:
+Keep the map open, because it is needed to also generate additional information
+which I can later import as masks:
 
 - Export the *Rivers* of the map. Make sure only the rivers are shown (black
   background, white rivers, no fuzzy pixels). Save it as a file (PNG) with equal
   size as the heightmap. Next, **convert** the PNG file into a true black/white
-  so we can use it for imports:
+  so I can use it for imports:
 
 ```
 ~$ convert <source> -threshold %1 <destination>
 ```
 
 - Export the *Biomes* of the map. In this case, the colors will be used for the
-  annotations so we can later generate biomes based on the annotation color.
+  annotations so I can later generate biomes based on the annotation color.
 
 When importing in WorldPainter:
 
