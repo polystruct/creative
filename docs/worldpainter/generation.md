@@ -2,6 +2,7 @@
 layout: default
 title: Generation
 parent: WorldPainter
+nav_order: 1
 ---
 
 # Generating World
@@ -51,6 +52,41 @@ When importing in WorldPainter:
 - Do not scale here as it generates artefacts.
 
 {: .note }
-The generation is still somewhat finicky, so play around with it. It is better to
-have a lower generation and add mountains with WorldPainter afterwards.
+The generation is still somewhat finicky, so play around with it. It is better
+to have a lower generation and add mountains with WorldPainter afterwards.
+
+# Regeneration
+
+It is advisable to use *annotations* and biomes as much as possible so that the
+world can be easily regenerated and reapplied.
+
+To regenerate the world, following the next steps...
+
+First, use the default theme generation (`Ctrl+G`, and select *reset terrain and
+layers to theme*).
+
+Then apply the `Hills` custom terrain (which you can do with a WorldPainter
+script as well):
+
+- Use *fill with terrain type*
+- Select `Hills` (custom terrain)
+- Apply *at or above* 64
+- Apply *at or below* 150
+- Apply *above* 35 degrees
+- Do not apply feathering as it will corrupt beaches and ocean edges.
+
+Apply the `Rocky` custom terrain (which you can do with a WorldPainter script as
+well):
+
+- Use the *fill with terrain type*
+- Select `Rocky` (custom terrain)
+- Apply *at or above* 64
+- Apply *above* 45 degrees
+
+Apply the snow layers:
+
+- In *Tools*, select *Run Script*
+- Use LordDakr's MountainFrost script (as [linked in his YouTube
+  tutorial](https://www.youtube.com/watch?v=IK4gcobBBO0)).
+- Set the first parameter to 200.
 
