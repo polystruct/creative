@@ -11,5 +11,5 @@ WorldPainter is a wonderful interactive map generator. When I build custom
 worlds, they are often developed with WorldPainter.
 
 Do visit the [WorldPainter website](https://www.worldpainter.net/) a visit
-at https://www.worldpainter.net/. If you like the application, please do
-consider donating to its development!
+at [https://www.worldpainter.net/](https://www.worldpainter.net/). If you like
+the application, please do consider donating to its development!
