@@ -26,7 +26,7 @@ github_username:  polystruct
 
 # Build settings
 markdown: kramdown
-theme: minimal
+theme: minima
 #plugins:
 #  - jekyll-remote-theme
 
