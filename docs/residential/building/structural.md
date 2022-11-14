@@ -30,11 +30,13 @@ standard lines).
 To keep things diverse, I am looking for some randomization in the builds that
 I create.
 
-# Using DnD-style crafting lists
+# Generic shape
 
 In DnD world building, one way of creating new worlds is to use
 crafting/building generations based on the roll of a dice. So why not apply the
 same to Minecraft builds?
+
+Below are the steps I take to get to a general shape.
 
 ## Building size
 
