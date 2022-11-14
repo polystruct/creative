@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Building style
+title: Building Style
 parent: Residential
 has_children: True
 nav_order: 2

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Structural
-parent: Building style
+parent: Building Style
 grand_parent: Residential
 nav_order: 1
 ---
@@ -114,7 +114,8 @@ use that location as a workspace for a blacksmith for instance.
 
 ## Unit sizes
 
-Next I want to assign the size of each unit. This takes into account the total size.
+Next I want to assign the size of each unit. This takes into account the total
+size.
 
 
 
