@@ -25,6 +25,9 @@ The document has a number of sections:
   WorldPainter and supporting tools.
 - [Residential](residential/residential.html) looks into residential builds
   within Minecraft. 
+- [Data pack](datapack/datapack.html) provides more input on data pack
+  development, and the data packs that I want to maintain related to this
+  guide.
 
 I hope having this material available online can be of assistance for others who
 like growing in their creative minecraft endeavors.
