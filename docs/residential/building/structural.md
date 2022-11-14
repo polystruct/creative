@@ -53,7 +53,12 @@ and a 2, then I would get a 3x2 grid, which would look like so:
 |   |   |   |
 +---+---+---+
 ```
-{: .m-0 }
+
+```mermaid
+flowchart LR
+   1 ~~~ 2 ~~~ 3
+   4 ~~~ 5 ~~~ 6
+```
 
 ## Cell builds
 
@@ -78,7 +83,6 @@ values 2, 1, 2, 4, 2 and 4. Hence, the ground floor would have units like so:
   4 | 2 | 4
     +---+
 ```
-{: .t-0 }
 
 The first floor gets 1, 2, 3, 2, 4 and 4, so:
 
@@ -106,6 +110,8 @@ use that location as a workspace for a blacksmith for instance.
 ## Unit sizes
 
 Next I want to assign the size of each unit. This takes into account the total size.
+
+
 
 ## Unit modifiers
 
