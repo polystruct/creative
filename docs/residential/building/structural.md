@@ -2,6 +2,7 @@
 layout: default
 title: Structural
 parent: Building style
+grand_parent: Residential
 nav_order: 1
 ---
 
