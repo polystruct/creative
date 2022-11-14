@@ -4,6 +4,16 @@ title: Dimension Properties
 parent: WorldPainter
 nav_order: 2
 ---
+# Dimension Properties
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 With the *Dimension Properties* I prepare world generation.
 

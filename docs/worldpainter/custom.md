@@ -4,6 +4,16 @@ title: Customization
 parent: WorldPainter
 nav_order: 3
 ---
+# Customization
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 WorldPainter allows for ample customization to quickly develop your worlds.
 

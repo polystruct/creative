@@ -65,12 +65,6 @@ and a 2, then I would get a 3x2 grid, which would look like so:
 +---+---+---+
 ```
 
-```mermaid
-flowchart LR
-   1 ~~~ 2 ~~~ 3
-   4 ~~~ 5 ~~~ 6
-```
-
 ## Cell builds
 
 Next, for each cell in the grid, I throw the dice to see if that cell will

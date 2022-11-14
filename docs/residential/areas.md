@@ -1,8 +1,18 @@
 ---
 layout: default
-title: Areas
+title: Residential Areas
 parent: Residential
 nav_order: 1
+---
+# Residential Areas
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ---
 
 # Hamlets

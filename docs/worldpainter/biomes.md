@@ -4,6 +4,16 @@ title: Biomes
 parent: WorldPainter
 nav_order: 5
 ---
+# Biomes
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 # Swamps
 

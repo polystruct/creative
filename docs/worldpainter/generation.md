@@ -4,8 +4,18 @@ title: Generation
 parent: WorldPainter
 nav_order: 1
 ---
-
 # Generating World
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+# Initial generation
 
 I can generate relatively nice looking terrain using [Azgaar's Fantasy Map
 Generator](https://azgaar.github.io/Fantasy-Map-Generator/).
