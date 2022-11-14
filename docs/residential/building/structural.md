@@ -53,6 +53,7 @@ and a 2, then I would get a 3x2 grid, which would look like so:
 |   |   |   |
 +---+---+---+
 ```
+{: .m-0 }
 
 ## Cell builds
 
@@ -77,6 +78,7 @@ values 2, 1, 2, 4, 2 and 4. Hence, the ground floor would have units like so:
   4 | 2 | 4
     +---+
 ```
+{: .t-0 }
 
 The first floor gets 1, 2, 3, 2, 4 and 4, so:
 
@@ -101,10 +103,19 @@ You might wonder, the second floor has a unit on top of nothing? Indeed, that
 gives an area where you have a roof but are otherwise still outside. I might
 use that location as a workspace for a blacksmith for instance.
 
+## Unit sizes
+
+Next I want to assign the size of each unit. This takes into account the total size.
+
 ## Unit modifiers
 
 Next, I look if a unit should be modified. Modifiers here are about placement
-in the three dimensions.
+in the three dimensions: horizontal (flat plan) and vertical (height).
+
+The result of the shifting might not always make sense, but it gives for some
+nice random ideas to work with.
+
+### Modify horizontally
 
 First, on the plane, I want to know if I have to shift a unit. I use `1d4` to
 see if I need to shift it. A value of 1 or 2 means that it stays where it is. A
@@ -132,5 +143,10 @@ So basically, a 1 means the unit shifts backwards, whereas a 4 means forward and
 | 7      | West       |
 | 8      | North-West |
 
+### Modify vertically
 
+Then the same is done with vertical shifts, using the same method:
+
+- First `1d4` to see if I do want to stay as-is (1, 2), shift one block (3) or two blocks (4)
+- Next, if I need to shift, `1d8` with the value giving the direction to shift.
 
