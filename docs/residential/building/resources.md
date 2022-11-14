@@ -15,9 +15,6 @@ nav_order: 2
 {:toc}
 
 ---
-Creating one building isn't that hard, but creating multiple buildings in the
-same style, that's something I struggle with. I use a few helplines to keep
-inspiration and challenges alive.
 
 # Online content creators
 
