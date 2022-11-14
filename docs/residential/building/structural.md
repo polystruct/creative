@@ -115,7 +115,53 @@ use that location as a workspace for a blacksmith for instance.
 ## Unit sizes
 
 Next I want to assign the size of each unit. This takes into account the total
-size.
+size. The formatting uses `{#,#,#}` as size indication. For instance, a value
+of `{3,2,2}` means the first unit is 3 blocks wide, the second unit 2 blocks
+wide, and the third unit also 2 blocks wide.
+
+### Five block wide building
+
+For a five block wide building, I only support up to 2 units.
+
+| `1d4` | Sizes   |
+|:------|:--------|
+| 1-2   | `{2,3}` |
+| 3-4   | `{3,2}` |
+
+### Six block wide building
+
+For a six block wide building, I only support up to 2 units.
+
+| `1d4` | Sizes   |
+|:------|:--------|
+| 1     | `{2,4}` |
+| 2     | `{3,3}` |
+| 3     | `{4,2}` |
+| Other | Retry   |
+
+### Seven block wide building
+
+For a seven block wide building, with 2 units:
+
+| `1d4` | Sizes   |
+|:------|:--------|
+| 1     | `{2,5}` |
+| 2     | `{3,4}` |
+| 3     | `{4,3}` |
+| 4     | `{5,2}` |
+
+For a seven block wide building, with 3 units:
+
+| `1d4` | Sizes     |
+|:------|:----------|
+| 1     | `{3,2,2}` |
+| 2     | `{2,3,2}` |
+| 3     | `{2,2,3}` |
+| Rest  | Retry     |
+
+### Eight block wide building
+
+For an eight block wide building, with 2 units:
 
 
 
