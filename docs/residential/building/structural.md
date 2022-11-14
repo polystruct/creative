@@ -6,6 +6,17 @@ grand_parent: Residential
 nav_order: 1
 ---
 
+# Structural building
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 Structural building focuses on how to create the base structure of a building.
 Rather than creating a 5x7 house over and over again, many creators use
 different structural builds to keep enough diversity around. Some builds are
