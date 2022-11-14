@@ -49,6 +49,11 @@ excluding possible extrusions and decorations. A roof that expands one block
 thus is not included in this size - it is meant for the foundation(s) of a
 build.
 
+This gives a size of 5 to 10 blocks. This seems to fit Minecraft build style
+pretty well (not too big). If you prefer larger builds, you can always increase
+the base (say start with a 6-width base, and add `1d6` to get up to 12 width)
+or use dice that give larger numbers.
+
 ## Grid size
 
 Next, I want to deduce the grid size. This is like the width and height, and
@@ -115,55 +120,29 @@ use that location as a workspace for a blacksmith for instance.
 ## Unit sizes
 
 Next I want to assign the size of each unit. This takes into account the total
-size. The formatting uses `{#,#,#}` as size indication. For instance, a value
-of `{3,2,2}` means the first unit is 3 blocks wide, the second unit 2 blocks
-wide, and the third unit also 2 blocks wide.
+size. To calculate the size of a unit, I start with a minimum size of 2.
 
-### Five block wide building
+Say the building size is 9, and there are 2 units to consider. That means that
+already 4 blocks are 'reserved', and I have to assign 5 more blocks across the
+two units. While you could create lists of all possible distributions, I tend
+to distribute according to the `1d12` die. This allows me to use the ratio of
+the resulting numbers.
 
-For a five block wide building, I only support up to 2 units.
+For two units, I throw `2d12`, for three units `3d12`, etc. The resulting values
+give me an indication on how to distribute the remaining work. Let's see a few
+examples:
 
-| `1d4` | Sizes   |
-|:------|:--------|
-| 1-2   | `{2,3}` |
-| 3-4   | `{3,2}` |
-
-### Six block wide building
-
-For a six block wide building, I only support up to 2 units.
-
-| `1d4` | Sizes   |
-|:------|:--------|
-| 1     | `{2,4}` |
-| 2     | `{3,3}` |
-| 3     | `{4,2}` |
-| Other | Retry   |
-
-### Seven block wide building
-
-For a seven block wide building, with 2 units:
-
-| `1d4` | Sizes   |
-|:------|:--------|
-| 1     | `{2,5}` |
-| 2     | `{3,4}` |
-| 3     | `{4,3}` |
-| 4     | `{5,2}` |
-
-For a seven block wide building, with 3 units:
-
-| `1d4` | Sizes     |
-|:------|:----------|
-| 1     | `{3,2,2}` |
-| 2     | `{2,3,2}` |
-| 3     | `{2,2,3}` |
-| Rest  | Retry     |
-
-### Eight block wide building
-
-For an eight block wide building, with 2 units:
-
-
+- A building size of 5 with two units. Four blocks are already assigned. `2d12`
+  gives 10 and 2, so the first unit gets the available block. The end result is
+  `{3,2}`.
+- A building size of 9 with 4 units. Eight blocks are already assigned. `4d12`
+  gives 9, 1, 7, 7, so the first unit gets the available block. The end result
+  is `{3,2,2,2}`.
+- A building size of 9 with 2 units. Four blocks are already assigned. `2d12`
+  gives 5 and 9. So I distribute 2 and 3 (which is roughly the ratio of 5 and
+  9) to give an end result of `{4, 5}`.
+- A building size of 8 with 2 units. Four blocks are already assigned. `2d12`
+  gives 2 and 8, so I distribute 1 and 3 to get `{3, 5}`.
 
 ## Unit modifiers
 
@@ -171,7 +150,8 @@ Next, I look if a unit should be modified. Modifiers here are about placement
 in the three dimensions: horizontal (flat plan) and vertical (height).
 
 The result of the shifting might not always make sense, but it gives for some
-nice random ideas to work with.
+nice random ideas to work with. Note that these modifiers can/will adjust the
+unit sizes as described earlier.
 
 ### Modify horizontally
 
