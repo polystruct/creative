@@ -1,0 +1,9 @@
+
+Residential
+===========
+
+Building style
+--------------
+
+Villagers:
+- Update loot tables from village_plains_house to village_<biome>_house
