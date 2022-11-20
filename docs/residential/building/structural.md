@@ -148,7 +148,7 @@ You might wonder, the second floor has a unit on top of nothing? Indeed, that
 gives an area where you have a roof but are otherwise still outside. I might
 use that location as a workspace for a blacksmith for instance.
 
-![Example of an area with 1st floor used for building but not on ground level](https://i.imgur.com/fcvyu8r.png)
+![Example of an area with 1st floor used for building but not on ground level](https://i.imgur.com/M8SFHSL.jpg)
 
 *Example of a building where the ground floor had a cell that isn't containing a build, whereas the floor above does. In this case, it was a 2x2 grid.*
 

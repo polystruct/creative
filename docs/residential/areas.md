@@ -21,7 +21,7 @@ Hamlets are small municipalities with a few houses. It is characterized as a
 single center with one to four houses across. These houses should have villagers
 inside them, with some standard (vanilla-style) loot.
 
-![Example taiga hamlet](https://i.imgur.com/Mcp9MFU.png)
+![Example taiga hamlet](https://i.imgur.com/xtIMxt3.jpg)
 
 *Example of a taiga hamlet*
 
@@ -29,7 +29,7 @@ Of course, bad things can happen in real life, so this should be reflected in
 the Minecraft world as well. Hamlets can be destroyed (for whatever reason)
 with only some ruins left over.
 
-![Example of a ruined taiga hamlet](https://i.imgur.com/z05sfTj.png)
+![Example of a ruined taiga hamlet](https://i.imgur.com/YJdZfDl.jpg)
 
 *Example of a ruined taiga hamlet*
 
@@ -65,7 +65,7 @@ appropriate biome).
 Villages are municipalities that are characterized with houses that are spread
 out. The intention is to have roughly 5 to 10 houses.
 
-![Example plains village](https://i.imgur.com/KF0dWHS.png)
+![Example plains village](https://i.imgur.com/pLg7QGe.jpg)
 
 *Example of a plains village*
 
@@ -75,7 +75,7 @@ that are in ruins, and other buildings that are being built up (where you can
 find obvious signs that the building is being created, such as having
 scaffolding in place and chests with the raw building materials).
 
-![Example ruined plains village](https://i.imgur.com/vgpJqRY.png)
+![Example ruined plains village](https://i.imgur.com/v1ZEqSb.jpg)
 
 *Example of a ruined plains village*
 

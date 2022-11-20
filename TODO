@@ -1,3 +1,34 @@
+General
+=======
+
+Make sure the final pictures are sufficiently small.
+
+First, crop out what isn't needed. Try to get the final picture to a resolution
+of 1024x768. I apply cropping as the pictures I take have a somewhat distorted
+view (due to laptop settings) at the edges.
+
+```
+~$ convert screenshot.png -gravity Center -crop 1024x768+0+0 intermediate.png
+```
+
+Next I use `pngquant` to optimize the PNG image further, unless the image is
+already using 8-bit coloring (which can be seen using `identify`). Screenshots
+from within Minecraft seem to already use 8-bit coloring to start.
+
+```
+~$ identify intermediate.png
+~$ pngquant intermediate.png --speed 1 -o intermediate2.png
+```
+
+If the resulting image is above 200kB, I switch to JPG and force a size around
+128Kb. Convert the image to JPEG (which will result in quality reduction, but
+also reduces the resulting size tremendously):
+
+```
+~$ convert intermediate2.png final.jpg
+~$ jpegoptim -S128 final.jpg
+```
+
 
 Residential
 ===========
