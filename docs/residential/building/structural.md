@@ -150,8 +150,15 @@ use that location as a workspace for a blacksmith for instance.
 
 ## Unit modifiers
 
-Next, I look if a unit should be modified. Modifiers here are about placement
-in the three dimensions: horizontal (flat plan) and vertical (height).
+Finally, and actually also optionally, I look if a unit should be modified.
+Modifiers here are about placement in the three dimensions: horizontal (flat
+plan) and vertical (height).
+
+{: . note}
+Unit modifiers are useful when the build is very large and can use some
+additional detailing. For most of the residential builds I tend to ignore unit
+modifiers, although occasionally one or two come into play if the alternative
+would be too little differentiation.
 
 The result of the shifting might not always make sense, but it gives for some
 nice random ideas to work with. Note that these modifiers can/will adjust the
@@ -192,3 +199,37 @@ Then the same is done with vertical shifts, using the same method:
 - First `1d4` to see if I do want to stay as-is (1, 2), shift one block (3) or two blocks (4)
 - Next, if I need to shift, `1d8` with the value giving the direction to shift.
 
+# Roofs
+
+There are different roof designs possible.
+
+I generally try to use a small set of roof designs per village so there is not
+that many variation within a single village. However, besides the roof design,
+there are also other roof structural changes to apply.
+
+## Roof styles
+
+There are several roof styles, based upon how steep you want the roof to go.
+
+1. Flat roofs
+2. Gradual raise, using slabs
+3. Regular raise, using stairs
+4. Sharp raise, using stairs alternating with full blocks
+
+Furthermore, you can have
+
+1. Symmetric roofs (`/\` shape)
+2. One-sided roofs (`/` shape)
+3. Tip-shaped roofs (like with church towers)
+
+## Roof adjustments
+
+Next to the regular roof, there are adjustments one can take up.
+
+| Number | Description |
+|:-------|:------------|
+|        | Regular roof, no adjustments |
+|        | Dormer window, perhaps use dice to see on which units of the structural build to apply. |
+|        | Skylight sideways (i.e. window/glass follows the shape of the roof ) |
+|        | Skylight at peak of the roof |
+|        | Chimney |
