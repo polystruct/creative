@@ -3,7 +3,7 @@ layout: default
 title: Online Resources
 parent: Building Style
 grand_parent: Residential
-nav_order: 4
+nav_order: 5
 ---
 # Online Resources
 {: .no_toc }
@@ -75,4 +75,12 @@ creators, in alphabetical order:
   energetic builder, not shy of a joke here and there, and just builds and
   builds and builds. I love how he continuously tries to add lore to his
   builds.
+
+# Communities
+
+There are online communities as well that provide tips and tricks for building
+styles.
+
+- [/r/DetailCraft](https://www.reddit.com/r/DetailCraft/) is a subreddit that
+  focuses on specific Minecraft build details.
 

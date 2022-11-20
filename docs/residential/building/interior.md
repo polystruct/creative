@@ -80,6 +80,13 @@ Note that dimensions are in `width x height x depth`.
     placing a rail on top of the furnaces for instance. Another addition is to
     consider the extractor hood above as well. This can be single blocks, or a
     combination (such as lanterns and trapdoors).
+11. A **grandfather clock** can have several designs. I like the ones with a
+    clock inside an item frame at the highest block, and with a chain or
+    lightning rod below.
+12. A **reading/writing desk**, for which plenty of designs exist as well.
+13. **Hanging flower pots** using chains. Make sure to keep enough space
+    (generally 3 blocks) below to keep it aesthetically pleasing, or keep
+    it along the wall otherwise.
 
 # Tables
 
@@ -91,6 +98,10 @@ pressure plates, or slabs. But there are plenty of other designs to use.
    use slabs with a door, perhaps with a banner.
 3. Scaffolding can create nice looking tables as well, works perfect
    for 1x1 tables.
+4. The standard fence with pressure plate remains a favorite of mine.
+5. Extended pistons.
+6. Combine top stairs with slabs
+
 
 # Decoration
 
@@ -108,6 +119,9 @@ is being inhabited.
 9. Paintings
 10. Pickles as cups on a table
 11. A cake on a table or in a cupboard
+12. Crystals
+13. Turtle eggs
+14. Dead coral fans, mostly on table or on shelves
 
 # Light sources
 
@@ -126,6 +140,8 @@ integrated in the build is important.
 3. Lanterns can also be decorated further, e.g. with signs all around.
 4. Shroomlights, with a stem below to create a standing light. Perhaps add a
    button on top for final touch.
+5. Candles - don't forget to lit them.
+
 
 # Randomization
 
