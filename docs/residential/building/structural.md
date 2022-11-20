@@ -75,29 +75,29 @@ and a 2, then I would get a 3x2 grid, which would look like so:
 
 ## Cell sizes
 
-Next I want to assign the size of each unit. This takes into account the total
-size. To calculate the size of a unit, I start with a minimum size of 2.
+Next I want to assign the size of each cell. This takes into account the total
+size. To calculate the size of a cell, I start with a minimum size of 2.
 
-Say the building size is 9, and there are 2 units to consider. That means that
+Say the building size is 9, and there are 2 cells to consider. That means that
 already 4 blocks are 'reserved', and I have to assign 5 more blocks across the
-two units. While you could create lists of all possible distributions, I tend
+two cells. While you could create lists of all possible distributions, I tend
 to distribute according to the `1d12` die. This allows me to use the ratio of
 the resulting numbers.
 
-For two units, I throw `2d12`, for three units `3d12`, etc. The resulting values
+For two cells, I throw `2d12`, for three cells `3d12`, etc. The resulting values
 give me an indication on how to distribute the remaining work. Let's see a few
 examples:
 
-- A building size of 5 with two units. Four blocks are already assigned. `2d12`
-  gives 10 and 2, so the first unit gets the available block. The end result is
+- A building size of 5 with two cells. Four blocks are already assigned. `2d12`
+  gives 10 and 2, so the first cell gets the available block. The end result is
   `{3,2}`.
-- A building size of 9 with 4 units. Eight blocks are already assigned. `4d12`
-  gives 9, 1, 7, 7, so the first unit gets the available block. The end result
+- A building size of 9 with 4 cells. Eight blocks are already assigned. `4d12`
+  gives 9, 1, 7, 7, so the first cell gets the available block. The end result
   is `{3,2,2,2}`.
-- A building size of 9 with 2 units. Four blocks are already assigned. `2d12`
+- A building size of 9 with 2 cells. Four blocks are already assigned. `2d12`
   gives 5 and 9. So I distribute 2 and 3 (which is roughly the ratio of 5 and
   9) to give an end result of `{4, 5}`.
-- A building size of 8 with 2 units. Four blocks are already assigned. `2d12`
+- A building size of 8 with 2 cells. Four blocks are already assigned. `2d12`
   gives 2 and 8, so I distribute 1 and 3 to get `{3, 5}`.
 
 
@@ -106,7 +106,7 @@ examples:
 Next, for each cell in the grid, I throw the dice to see if that cell will
 contain a house unit (which is a bit like a room, although the final house
 might not use each cell as a separate room - it depends on the constraints
-given like the size.
+given like the size).
 
 - For the ground floor, the cell gets a unit if `1d4` is 1, 2 or 3.
 - For the first level, the cell gets a unit if `1d4` is 1 or 2.
@@ -147,6 +147,10 @@ The third floor gets 1, 1, 4, 3, 4 and 2, so:
 You might wonder, the second floor has a unit on top of nothing? Indeed, that
 gives an area where you have a roof but are otherwise still outside. I might
 use that location as a workspace for a blacksmith for instance.
+
+![Example of an area with 1st floor used for building but not on ground level](https://i.imgur.com/fcvyu8r.png)
+
+*Example of a building where the ground floor had a cell that isn't containing a build, whereas the floor above does. In this case, it was a 2x2 grid.*
 
 ## Unit modifiers
 
