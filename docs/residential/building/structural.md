@@ -52,9 +52,10 @@ thus is not included in this size - it is meant for the foundation(s) of a
 build.
 
 This gives a size of 5 to 10 blocks. This seems to fit Minecraft build style
-pretty well (not too big). If you prefer larger builds, you can always increase
-the base (say start with a 6-width base, and add `1d6` to get up to 12 width)
-or use dice that give larger numbers.
+pretty well (not too big) while still allowing for some detailing. If you
+prefer larger builds, you can always increase the base (say start with a
+8-width base, and add `1d6` to get up to 14 width) or use dice that give larger
+numbers.
 
 ## Grid size
 

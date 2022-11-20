@@ -3,7 +3,7 @@ layout: default
 title: Online Resources
 parent: Building Style
 grand_parent: Residential
-nav_order: 3
+nav_order: 4
 ---
 # Online Resources
 {: .no_toc }
