@@ -33,8 +33,8 @@ terrain.
 On the *Terrain* tab, I use the following layers:
 
 1. From level 0, I use `Gravel`
-2. From level 62, I use `Sand`
-3. From level 66, I use `Bare Grass` or `Grass`
+2. From level 60, I use `Sand`
+3. From level 65, I use `Bare Grass` or `Grass`
 4. From level 120, I use `Rocky` (custom terrain)
 5. From level 150, I use `RockyMountain` (custom terrain)
 6. From level 200, I use `Deep Snow`

@@ -34,8 +34,10 @@ rivers.  Then, in the *Styles* menu:
 - select *Heightmap* element and set *Reduce layers* to 0, and *Filter* to
   *Blur 7*.
 
-When exporting, scale here rather than in WorldPainter (a scale of 3 seems to
-work fine).
+When exporting, I scale here rather than in WorldPainter (a scale of 3 seems to
+work fine) as scaling in WorldPainter generates more artefacts that are not that
+easy to remove (without messing up the relationship with the other exports mentioned
+later).
 
 Keep the map open, because it is needed to also generate additional information
 which I can later import as masks:
@@ -54,12 +56,8 @@ which I can later import as masks:
 
 When importing in WorldPainter:
 
-- Set the minecraft height to a relatively small range so that the heightmap 
-  doesn't result in two-block high jumps. For instance, 50-64-150. Current best
-  practice seems to be to look at the color difference as shown in WorldPainter,
-  and take half of it as the rough difference. 
-- Adjust the height of the image based on the preview.
-- Do not scale here as it generates artefacts.
+- Set the low mapping for both the heightmap and minecraft map to be at 0.
+- Keep the high mappings of each at the same level as the highest value.
 
 {: .note }
 The generation is still somewhat finicky, so play around with it. It is better
