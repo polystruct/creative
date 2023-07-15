@@ -90,7 +90,7 @@ residential areas, so villages are limited to the following biomes:
 - plains and sunflower plains
 - savanna and savanna plateau (not yet implemented)
 - snowy plains (not yet implemented)
-- taiga (in progress)
+- taiga
 
 ## Villages in data pack
 
