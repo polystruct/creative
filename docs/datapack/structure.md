@@ -5,7 +5,7 @@ parent: Data pack
 nav_order: 1
 ---
 
-{: .note}
+{: .note }
 This is about the structure of the data packs, not about Minecraft structures.
 
 # Location of structures
