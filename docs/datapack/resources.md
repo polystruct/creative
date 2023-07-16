@@ -2,7 +2,7 @@
 layout: default
 title: Online resources
 parent: Data pack
-nav_order: 3
+nav_order: 4
 ---
 
 To help in data pack development, I currently use several online resources.
@@ -12,6 +12,10 @@ To help in data pack development, I currently use several online resources.
 [misode](https://misode.github.io/) has online generators, but I personally
 like to dive through the code they have available on
 [GitHub](https://github.com/misode).
+
+Other useful data packs are:
+* [Dreamland](https://github.com/Alumopper/Dreamland/blob/master/Dreamland/data)
+* [Wabi Sabi Structures](https://github.com/WightofShadows/Wabi_Sabi_Structures/tree/main/data/wabi_sabi_structures)
 
 # Online content creators
 
