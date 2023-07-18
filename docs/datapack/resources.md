@@ -2,7 +2,7 @@
 layout: default
 title: Online resources
 parent: Data pack
-nav_order: 4
+nav_order: 5
 ---
 
 To help in data pack development, I currently use several online resources.

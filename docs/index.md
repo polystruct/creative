@@ -9,8 +9,8 @@ description: "Polystruct's Creative Minecraft contains ideas and methods for bui
 
 The intention of *Polystruct's Creative Minecraft* is to list ideas and
 examples for building inside and with minecraft. It is meant as a reference for
-when I build in worlds, which is what I prefer in Minecraft. As I am more an
-amateur, having these references available allows me to quickly establish what I
+when I build in worlds, which is what I prefer in Minecraft. As I am really just 
+an amateur, having these references available allows me to quickly establish what I
 want to do without having to find examples online over and over again.
 
 For me, creative minecraft is more than in-game minecraft creative gamemode. It

@@ -2,7 +2,7 @@
 layout: default
 title: Pools
 parent: Data pack
-nav_order: 2
+nav_order: 3
 ---
 
 Template pools are the entry point to bring structures (or mobs, or features, or ...) into the world.
