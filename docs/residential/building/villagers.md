@@ -17,42 +17,53 @@ nav_order: 2
 
 ---
 
-I try to keep some consistency in the use of villagers and villager houses. Especially
-for the houses in residential areas, I like to stick to designs that force the
-villager into a particular profession. This does mean I am somewhat limited for
-the interior design and the use of certain materials (especially barrels) as I
-do not want villagers to take on a different profession than intended.
+In my builds, especially in residential areas, I either use builds that are
+consistent with the profession of the villager, or at least have some
+consistency in the interior design. 
+
+If the build is consistent, then the interior is part of the build itself
+(the structure). When this is more open (for instance, when the interior
+itself is randomly allocated) then the interior will try to stick to a
+certain choice set (such as bed color, and chest loot table).
 
 # Professions, chests and colors
 
 For the standard professions, I keep a standard coloring scheme for their beds.
 Furthermore, as my intention is to facilitate exploration, I do like to have
-loot placed in every house. The loot tables are currently always those of
-vanilla minecraft.
+loot placed in every house.
+
+The loot table that I use is a custom one, although for jump-starting the
+data pack I do have it pick immediately and only from the vanilla one (the
+default loot table I use just has a reference to the "main" loot table). My
+intention is to switch to more custom loot once I've found a good balance.
 
 | Profession    | Workstation       | Bed color  | Loot table                            |
 |:--------------|:------------------|:-----------|:--------------------------------------|
-| Armorer       | Blast Furnace     | blue       | `chests/village/village_armorer`      |
-| Butcher       | Smoker            | orange     | `chests/village/village_butcher`      |
-| Cartographer  | Cartography Table | brown      | `chests/village/village_cartographer` |
-| Cleric        | Brewing Stand     | white      | `chests/village/village_temple`       |
-| Farmer        | Composter         | lime       | `chests/village/village_plains_house` |
-| Fisherman     | Barrel            | green      | `chests/village/village_fisher`       |
-| Fletcher      | Fletching Table   | yellow     | `chests/village/village_fletcher`     |
-| Leatherworker | Cauldron          | light blue | `chests/village/village_plains_house` |
-| Librarian     | Lectern           | pink       | `chests/village/village_plains_house` |
-| Mason         | Stonecutter       | magenta    | `chests/village/village_mason`        |
-| Shepherd      | Loom              | light gray | `chests/village/village_shepherd`     |
-| Toolsmith     | Smithing Table    | gray       | `chests/village/village_toolsmith`    |
-| Weaponsmith   | Grindstone        | black      | `chests/village/village_weaponsmith`  |
+| Armorer       | Blast Furnace     | blue       | `chests/<area>/<biome>/armorer`       |
+| Butcher       | Smoker            | orange     | `chests/<area>/<biome>/butcher`       |
+| Cartographer  | Cartography Table | brown      | `chests/<area>/<biome>/cartographer`  |
+| Cleric        | Brewing Stand     | white      | `chests/<area>/<biome>/cleric`        |
+| Farmer        | Composter         | lime       | `chests/<area>/<biome>/farmer`        |
+| Fisherman     | Barrel            | green      | `chests/<area>/<biome>/fisherman`     |
+| Fletcher      | Fletching Table   | yellow     | `chests/<area>/<biome>/fletcher`      |
+| Leatherworker | Cauldron          | light blue | `chests/<area>/<biome>/leatherworker` |
+| Librarian     | Lectern           | pink       | `chests/<area>/<biome>/librarian`     |
+| Mason         | Stonecutter       | magenta    | `chests/<area>/<biome>/mason`         |
+| Shepherd      | Loom              | light gray | `chests/<area>/<biome>/shepherd`      |
+| Toolsmith     | Smithing Table    | gray       | `chests/<area>/<biome>/toolsmith`     |
+| Weaponsmith   | Grindstone        | black      | `chests/<area>/<biome>/weaponsmith`   |
 
-I have not yet switched the loot table based on biomes, even though that is also
-available (such as `village_taiga_house` rather than `village_plains_house`).
-Something on the never-ending TODO list.
+All professions also have a loot table `chests/<profession>` without indication of
+area (like `hamlet`) or biome (like `snowy`). This generic one, which is based upon
+a plains biome, regular Minecraft loot table, is used for structures that do not
+yet know which biome and area they are in.
 
-The list of available loot tables can be found on [Minecraft Chest Loot Table
-List](https://www.planetminecraft.com/blog/minecraft-lootchests/) by McMeddon
-or on [Misode's mcmeta
+The intention is that these generic loot tables are later on substituted through
+the processor(s) assigned to a build.
+
+The list of Minecraft vanilla available loot tables can be found on 
+[Minecraft Chest Loot Table List](https://www.planetminecraft.com/blog/minecraft-lootchests/)
+by McMeddon or on [Misode's mcmeta
 repository](https://github.com/misode/mcmeta/tree/data-json/data/minecraft/loot_tables/chests).
 
 ## Villagers in data pack

@@ -13,6 +13,12 @@ that particular structure pool.
 
 The location for processor lists is at `worldgen/processor_list`.
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 # Subdirectory structure
 
 I use subdirectories that group the main processors together.
@@ -66,28 +72,22 @@ Switches regular terracotta to colored terracotta.
 
 # Interior conversion
 
-Interior conversion processors have a number of functionality
-that they cover:
-
-- they switch the pallette of wood and stone a bit, providing some
-  randomization
-- they change the state of blocks (like furnaces) so they (can)
-  contain some random loot, with a chance of good loot
-- they change the state of lightsources (candles, torches, ...)
-
 ## Room decoration
 
 ```
-polystruct:interior/room_decor_<wood1>_<wood2>
+polystruct:interior/room_decor
 ```
 
-Decorates the room by substituting oak with `wood1` and warped with `wood2`.
+Initially, I was hoping on generating a processor that switches some of the
+building pallettes into other building pallettes. While that did work out,
+it resulted in hundreds of processors with thousands of lines, which I feel
+is not going to be efficient. While maintenance is doable (through scripting)
+I feel that it is overshooting the purpose of processors, and might eventually
+hit limits if I would continue that way.
 
-This only supports regular wood types though, so no hyphae. I do not provide
-a full set of all iterations (as that would give 100 processors), but focus
-on a few common combinations:
-
-| `oak_spruce` |
+Instead, I switched to a decorator processor that switches some blocks (or
+the contents of some blocks) to provide some randomization for explorers,
+but keeps the builds themselves rather untouched.
 
 # Using processors
 

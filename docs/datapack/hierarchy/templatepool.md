@@ -12,6 +12,12 @@ the target for structure sets, as well as targets for jigsaw blocks.
 
 The location for pools is at `worldgen/template_pool`.
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 # Subdirectory structure
 
 Within my data packs, I use some structure to quickly find the right asset.
@@ -50,4 +56,13 @@ want to retain - there are others in it that I want to adjust):
 | village | Regular residential area | build |
 | town | More centralized residential area | build |
 | city | Large, centralized residential area | build |
+| studio | Interior design for rooms containing bed, workstation and living aspects | build |
 
+## Studio
+
+Studios are interior builds, with a given width-depth-height. For instance,
+a 3x5x4 is a 3 blocks wide, 5 blocks deep and 4 blocks high interior room.
+
+A studio _always_ has a jigsaw in the most left of the interior, on the floor
+(i.e. one block above the ground itself). This jigsaw has `polystruct:studio`
+as name.
