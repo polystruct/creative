@@ -23,3 +23,19 @@ Within my data packs, I use some structure to quickly find the right asset.
 
 ## chests
 
+For the residential areas, I have custom chest loot table definitions which
+currently only refer to the main, vanilla loot table. My builds will gradually
+use these custom loot tables instead, as that allows me to adjust and fine-tune
+the loot tables.
+
+```
+chests / <residential> / <biome> / <profession>
+```
+
+| Name | Description | Example(s) |
+|:--|:--|:--|
+| `residential` | Type of residential area | `hamlet`, `village` |
+| `biome` | Biome in which the area is placed | `plains`, `swamp` |
+| `profession` | Profession of the villager the chest belongs to | `farmer`, `cartographer` |
+
+

@@ -38,6 +38,16 @@ same to Minecraft builds?
 
 Below are the steps I take to get to a general shape.
 
+## Create a rough foundation
+
+Buildings should have a rough, stony foundation (if applicable to the biome
+they are meant to be in). This allows for a more proper generation in case
+the building is on a cliff (or similar).
+
+When building an entire "set" of buildings in a similar pallette, it is
+always a good idea to first generate a template (e.g. using some black wool)
+and copy/paste that.
+
 ## Building size
 
 The first thing I want to settle on is how big a building should be. Now, if

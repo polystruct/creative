@@ -53,13 +53,12 @@ intention is to switch to more custom loot once I've found a good balance.
 | Toolsmith     | Smithing Table    | gray       | `chests/<area>/<biome>/toolsmith`     |
 | Weaponsmith   | Grindstone        | black      | `chests/<area>/<biome>/weaponsmith`   |
 
-All professions also have a loot table `chests/<profession>` without indication of
-area (like `hamlet`) or biome (like `snowy`). This generic one, which is based upon
-a plains biome, regular Minecraft loot table, is used for structures that do not
-yet know which biome and area they are in.
-
-The intention is that these generic loot tables are later on substituted through
-the processor(s) assigned to a build.
+All professions also have a loot table `chests/profession/<profession>` without
+indication of area (like `hamlet`) or biome (like `snowy`). This generic one,
+which is based upon a plains biome, regular Minecraft loot table, is used for
+structures that do not yet know which biome and area they are in. The intention
+is that these generic loot tables are later on substituted through the
+processor(s) assigned to a build.
 
 The list of Minecraft vanilla available loot tables can be found on 
 [Minecraft Chest Loot Table List](https://www.planetminecraft.com/blog/minecraft-lootchests/)

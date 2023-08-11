@@ -41,9 +41,9 @@ available for the following biomes:
 
 - badlands
 - desert
-- plains and sunflower plains
-- savanna and savanna plateau
-- snowy plains
+- plains (including sunflower plains)
+- savanna (including savanna plateau)
+- snowy plains (called `snowy`)
 - swamp
 - taiga
 
@@ -87,9 +87,9 @@ residential areas, so villages are limited to the following biomes:
 
 - badlands
 - desert
-- plains and sunflower plains
-- savanna and savanna plateau (not yet implemented)
-- snowy plains (not yet implemented)
+- plains (including sunflower plains)
+- savanna (including savanna plateau) (not yet implemented)
+- snowy plains (called `snowy`) (not yet implemented)
 - taiga
 
 ## Villages in data pack

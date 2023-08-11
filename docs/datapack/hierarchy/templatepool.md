@@ -38,11 +38,19 @@ For larger builds, I use the following folder structure:
 | `build_type` | Generation type of the build | `regular`, `ruin` |
 | `structure` | Structure type | `center`, `road` |
 
-The sequence is to support multiple variants. For instance, if I want to create
-a new plains village with a different build style, then I create one in a new
-sequence. The `polygame` data pack will randomly pick one (this is done by
-joining the pools for all the variants in a single pool, for which I use a
-shell script)
+There is also a `wp/` top level directory, which underneath uses the same 
+structure as listed above. In it, slightly adjusted versions of the main
+templates are hosted which are more suitable to use in WorldPainter (or
+other custom) worlds. For instance, villages do not use roads that have
+the `terrain_matching` _projection_. This allows the villages to be placed
+manually (using `/place jigsaw`) without the main structures generated
+at the level that the seed would provide (rather than the right, but
+custom level).
+
+The _sequence_ is to support multiple variants. For instance, if I want to
+create a new plains village with a different build style, then I create one in
+a new sequence. I then use a script that merges the various centers into one
+big JSON file, allowing for random picks to be used.
 
 # Build classes
 

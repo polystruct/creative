@@ -30,11 +30,42 @@ also reduces the resulting size tremendously):
 ```
 
 
-Residential
-===========
+Update loot tables
+==================
 
-Building style
---------------
+I'm updating the loot tables of the chests in the residential areas to be
+conform the documented loot tables (e.g. for a farmer in a snowy biome hamlet,
+use `polystruct:chests/hamlet/snowy/farmer`).
 
-Villagers:
-- Update loot tables from village_plains_house to village_<biome>_house
+Hamlets
+-------
+
+badlands: done
+desert: done
+plains: done
+savanna: done
+snowy plains: todo
+swamp: todo
+taiga: todo
+
+Villages
+--------
+
+badlands: todo
+desert: todo
+plains: done
+taiga: todo
+
+Studios and Rooms
+=================
+
+My intention is to build more studios and rooms. The builds themselves are
+stored in a `generic` location, but the template pools will have separate
+definitions, so that I can use _transformers_ to change chest loot tables
+or common slabs and chairs.
+
+The intention is also that there is a chance that a chest or barrel is
+removed. This way, not all buildings that are stored with a chest/barrel
+with loot will actually be on the final generation with loot. Preferably,
+the chest/barrel is removed (and not its loot table changed) as I could
+otherwise have the impression that I have a wrong build (wrong loot table).
