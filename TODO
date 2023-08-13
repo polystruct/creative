@@ -29,33 +29,6 @@ also reduces the resulting size tremendously):
 ~$ jpegoptim -S128 final.jpg
 ```
 
-
-Update loot tables
-==================
-
-I'm updating the loot tables of the chests in the residential areas to be
-conform the documented loot tables (e.g. for a farmer in a snowy biome hamlet,
-use `polystruct:chests/hamlet/snowy/farmer`).
-
-Hamlets
--------
-
-badlands: done
-desert: done
-plains: done
-savanna: done
-snowy plains: todo
-swamp: todo
-taiga: todo
-
-Villages
---------
-
-badlands: todo
-desert: todo
-plains: done
-taiga: todo
-
 Studios and Rooms
 =================
 
@@ -69,3 +42,20 @@ removed. This way, not all buildings that are stored with a chest/barrel
 with loot will actually be on the final generation with loot. Preferably,
 the chest/barrel is removed (and not its loot table changed) as I could
 otherwise have the impression that I have a wrong build (wrong loot table).
+
+Hamlets
+-------
+
+For the following hamlet builds, I used a previous "interior" design. This
+needs to switch over to the studio-based designs.
+
+- badlands (with its own 5x5)
+- snowy (using 3x3)
+
+Villagers
+=========
+
+I always used `minecraft:village/plains/villagers` as template pool, but
+this should use the appropriate one for the biome. Hence, I'd like to 
+switch over to `polystruct:mobs/plains/villager` or so, allowing for more
+flexibility in the definitions later.
