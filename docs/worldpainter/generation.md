@@ -68,27 +68,29 @@ to have a lower generation and add mountains with WorldPainter afterwards.
 It is advisable to use *annotations* and biomes as much as possible so that the
 world can be easily regenerated and reapplied.
 
-To regenerate the world, following the next steps...
+To regenerate the world, following the next steps can be used manually. 
+
+{: .note }
+I use a script to apply this (`polystruct-AutoRegenerate.js`).
 
 First, use the default theme generation (`Ctrl+G`, and select *reset terrain and
 layers to theme*).
 
-Then apply the `Hills` custom terrain (which you can do with a WorldPainter
-script as well):
+Then apply the `Hills` custom terrain:
 
 - Use *fill with terrain type*
 - Select `Hills` (custom terrain)
-- Apply *at or above* 64
-- Apply *at or below* 150
+- Apply *at or above* 1
+- Apply *at or below* 90
 - Apply *above* 35 degrees
 - Do not apply feathering as it will corrupt beaches and ocean edges.
 
-Apply the `Rocky` custom terrain (which you can do with a WorldPainter script as
-well):
+Apply the `Rocky` custom terrain:
 
 - Use the *fill with terrain type*
 - Select `Rocky` (custom terrain)
-- Apply *at or above* 64
+- Apply *at or above* 1
+- Apply *at or below* 140
 - Apply *above* 45 degrees
 
 Apply the snow layers:
@@ -96,5 +98,5 @@ Apply the snow layers:
 - In *Tools*, select *Run Script*
 - Use LordDakr's MountainFrost script (as [linked in his YouTube
   tutorial](https://www.youtube.com/watch?v=IK4gcobBBO0)).
-- Set the first parameter to 200.
+- Set the first parameter to 120.
 

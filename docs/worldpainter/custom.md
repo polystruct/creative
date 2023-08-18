@@ -26,7 +26,7 @@ the same order (which is needed if I want to use them in scripts).
 ## Rocky terrain
 
 *Rocky* terrain is used for steep hills (above 45 degrees) and in the start
-of mountains (height 120 - 150). It uses the following materials:
+of mountains (height 90 - 140). It uses the following materials:
 
 | Material                      | Sizing |
 |:------------------------------|:-------|
@@ -42,7 +42,7 @@ of mountains (height 120 - 150). It uses the following materials:
 
 ## Rocky Mountain terrain
 
-*RockyMountain* is used for mountains between 150-200. It has *Blobs* enabled,
+*RockyMountain* is used for mountains between 140-250. It has *Blobs* enabled,
 and contains the following material:
 
 | Material  | Sizing |
