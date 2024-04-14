@@ -51,6 +51,19 @@ the data pack).
 Structures are combined to build the complete structure set. For this, certain
 standard jigsaw combinations (connectors) are used.
 
+### Roads
+
+Roads are all defined in the `roads.json` file. Connectors for roads use level
+definitions:
+
+- `polystruct:road_level0` is for the main road. Level-0 roads are allowed to
+  turn left or right, or split, at which point the road becomes a Level-1 road.
+- `polystruct:road_level1` only contains straight roads. The intention of a
+  Level-1 road is that it is equally significant as a Level-0 road (e.g. 3
+  blocks wide).
+- `polystruct:road_level2` only contains straight roads. These are smaller
+  roads than Level-1 roads.
+
 ### Triggering full builds
 
 While minecraft nowadays supports placing structures through commands, I do

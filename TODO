@@ -43,14 +43,11 @@ with loot will actually be on the final generation with loot. Preferably,
 the chest/barrel is removed (and not its loot table changed) as I could
 otherwise have the impression that I have a wrong build (wrong loot table).
 
-Hamlets
--------
+Transformer
+-----------
 
-For the following hamlet builds, I used a previous "interior" design. This
-needs to switch over to the studio-based designs.
-
-- badlands (with its own 5x5)
-- snowy (using 3x3)
+While the studios are now ready, I still need to create the transformer
+to optimize the interior design.
 
 Villagers
 =========
@@ -59,3 +56,8 @@ I always used `minecraft:village/plains/villagers` as template pool, but
 this should use the appropriate one for the biome. Hence, I'd like to 
 switch over to `polystruct:mobs/plains/villager` or so, allowing for more
 flexibility in the definitions later.
+
+Villages
+========
+
+I need to start creating the ruined villages.

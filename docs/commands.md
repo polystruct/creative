@@ -2,7 +2,7 @@
 layout: default
 title: Commands
 nav_order: 5
-has_children: false
+has_children: true
 ---
 
 Commands help in developing a world that feels novel.
