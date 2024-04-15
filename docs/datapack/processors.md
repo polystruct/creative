@@ -64,3 +64,23 @@ could be set as containing a bundle, which contains 3 diamonds and 15 charcoal:
    ]},Count:1}
 ]}
 ```
+
+# Common errors
+
+## Not a json array
+
+The following error can occur when the expected fields are not defined:
+
+```
+Caused by: java.lang.RuntimeException: Not a json array: {"processors":[{"processor_type":"minecraft:rule","rules":[{"input_predicate":{"block":"minecraft:red_sandstone","predicate_type":"minecraft:block_match"},"output_state":{"Name":"minecraft:structure_void"}}]}]}
+```
+
+This does not mean the JSON is incorrect. You can verify this with `jq`.
+
+Instead, in the above error, the processor is missing the `location_predicate` field.
+This field always needs to be defined, so add the following to the processor:
+
+```
+"location_predicate": { "predicate_type": "minecraft:always_true" },
+```
+

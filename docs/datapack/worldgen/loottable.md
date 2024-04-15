@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Loot table
-parent: Hierarchy
+parent: Worldgen
 grand_parent: Data pack
 nav_order: 3
 ---

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Template pool
-parent: Hierarchy
-grand_parent: Data pack
+title: Worldgen
+parent: Data pack
 nav_order: 1
+has_children: true
 ---
 
 The template pools contain the definitions of the pools of structures
@@ -27,15 +27,16 @@ Within my data packs, I use some structure to quickly find the right asset.
 For larger builds, I use the following folder structure:
 
 ```
-<build_class> / <biome> / <sequence> / <build_type> / <structure>
+[<style> /] <build_class> / <style> / <biome> / <sequence> / <build_type> / <structure>
 ```
 
 | Name | Description | Example |
 |:-----|:------------|:--------|
+| `style` | (Optional) Style for which the pool is meant. If undefined, the style is `rustic`. | `rustic` |
 | `build_class` | Class of the building or structure | `village`, `hamlet`, `studio` |
-| `biome` | Biome for which the pool is meant. Can also be `generic` for reusable builds. | `plains`, `snowy` |
+| `biome` | Biome for which the pool is meant. Might be called `generic` or other identification that is cross-biome. | `plains`, `snowy` |
 | `sequence` | Identifier for the build pallette/results, generally just a number | `01`, `02` |
-| `build_type` | Generation type of the build | `regular`, `ruin` |
+| `build_type` | Generation type of the build | `regular`, `ruin`, `build` |
 | `structure` | Structure type | `center`, `road` |
 
 The _sequence_ is to support multiple variants. For instance, if I want to
@@ -65,3 +66,12 @@ a 3x5x4 is a 3 blocks wide, 5 blocks deep and 4 blocks high interior room.
 A studio _always_ has a jigsaw in the most left of the interior, on the floor
 (i.e. one block above the ground itself). This jigsaw has `polystruct:studio`
 as name.
+
+# Styles
+
+Style names I use:
+
+| Style | Description |
+|:------|:------------|
+| rustic | Well-defined, easy, slightly boring style. |
+

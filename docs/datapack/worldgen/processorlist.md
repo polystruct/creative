@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Processor list
-parent: Hierarchy
+parent: Worldgen
 grand_parent: Data pack
 nav_order: 2
 ---
