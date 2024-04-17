@@ -57,12 +57,25 @@ Roads are all defined in the `roads.json` file. Connectors for roads use level
 definitions:
 
 - `polystruct:road_level0` is for the main road. Level-0 roads are allowed to
-  turn left or right, or split, at which point the road becomes a Level-1 road.
+  turn left or right, or split, at which point the road becomes a level-1 road.
 - `polystruct:road_level1` only contains straight roads. The intention of a
-  Level-1 road is that it is equally significant as a Level-0 road (e.g. 3
+  level-1 road is that it is equally significant as a level-0 road (e.g. 3
   blocks wide).
 - `polystruct:road_level2` only contains straight roads. These are smaller
-  roads than Level-1 roads.
+  roads than level-1 roads.
+
+It isn't necessary to have all three levels at play. Some of my villages only
+have level09 and level-1 roads.
+
+### Decoration
+
+Decoration is defined in the `decors.json` file. Connectors for decoration
+use the following definitions:
+
+- `polystruct:lamp` is a lamppost or other means of recurring lighting within
+  a village. Jigsaws here must be aligned, and the idea is that a north-facing
+  build has its light directed eastward (right hand side). Make sure that both
+  jigsaws are set to "Aligned"!
 
 ### Triggering full builds
 
