@@ -65,3 +65,9 @@ a 3x5x4 is a 3 blocks wide, 5 blocks deep and 4 blocks high interior room.
 A studio _always_ has a jigsaw in the most left of the interior, on the floor
 (i.e. one block above the ground itself). This jigsaw has `polystruct:studio`
 as name.
+
+| Size  | Structure base                                |
+|:------|:----------------------------------------------|
+| 3x3x2 | `polystruct:studio/generic/01/regular/3x3x2/` |
+| 5x5x3 | `polystruct:studio/generic/01/regular/5x5x3/` |
+| 3x3x3 | `polystruct:studio/generic/01/regular/3x3x3/` |
