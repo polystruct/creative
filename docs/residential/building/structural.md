@@ -44,6 +44,17 @@ Buildings should have a rough, stony foundation (if applicable to the biome
 they are meant to be in). This allows for a more proper generation in case
 the building is on a cliff (or similar).
 
+Minecraft can generate this for us if we want. In the structure definition
+(part of `worldgen/structure`) the parameter `terrain_adaptation` can be used
+for this. Possible values are:
+- `none` (default)
+- `beard_thin`, which does slight foundation work
+- `beard_box`, which should do more foundation work
+- `bury`, which encases the build
+
+For most overworld structures, `beard_thin` is a good approach. If the
+generations are not good, create a foundation yourself and use `none`.
+
 When building an entire "set" of buildings in a similar pallette, it is
 always a good idea to first generate a template (e.g. using some black wool)
 and copy/paste that.
