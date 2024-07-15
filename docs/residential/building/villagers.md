@@ -30,7 +30,7 @@ certain choice set (such as bed color, and chest loot table).
 
 For the standard professions, I keep a standard coloring scheme for their beds.
 Furthermore, as my intention is to facilitate exploration, I do like to have
-loot placed in every house.
+potential loot placed in every house.
 
 The loot table that I use is a custom one, although for jump-starting the
 data pack I do have it pick immediately and only from the vanilla one (the
@@ -53,12 +53,16 @@ intention is to switch to more custom loot once I've found a good balance.
 | Toolsmith     | Smithing Table    | gray       | `chests/<area>/<biome>/toolsmith`     |
 | Weaponsmith   | Grindstone        | black      | `chests/<area>/<biome>/weaponsmith`   |
 
-All professions also have a loot table `chests/profession/<profession>` without
-indication of area (like `hamlet`) or biome (like `snowy`). This generic one,
-which is based upon a plains biome, regular Minecraft loot table, is used for
-structures that do not yet know which biome and area they are in. The intention
-is that these generic loot tables are later on substituted through the
-processor(s) assigned to a build.
+For each profession, a loot table is defined. This will start from the vanilla loot table,
+but will be extended with more lore-related loot later on. The loot table names are listed
+in the table above.
+
+There are three colors of beds (red, cyan and purple) not assigned to a
+specific villager profession. The intention is to keep the red color for generic, unassigned
+villagers, and have cyan and purple reserved for when Mojang adds more professions.
+
+Within the datapack, there will be specialized professions as well. These however will share
+colors with existing professions.
 
 The list of Minecraft vanilla available loot tables can be found on 
 [Minecraft Chest Loot Table List](https://www.planetminecraft.com/blog/minecraft-lootchests/)
