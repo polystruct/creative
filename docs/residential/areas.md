@@ -53,9 +53,9 @@ In my data pack, hamlets can be found through `polygame:hamlet_<biome>`. Ruined
 hamlets can be found as `polygame:ruined_hamlet_<biome>`.
 
 As the hamlets are a center with directly attached houses, most of the hamlets
-that are placed in the world seem to be presented quite decently. This is because
-there are no paths that use the `terrain_matching` projection, so less quirky
-generation.
+that are placed in the world seem to be presented quite decently. This is
+because there are no paths that use the `terrain_matching` projection, so less
+quirky generation.
 
 Hamlet generation starts from the center (using the `centers` pool of the
 appropriate biome).
