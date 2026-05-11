@@ -122,7 +122,7 @@ size) and have the buildings generate within this structure.
 
 # Cities
 
-{: note }
+{: .note }
 City development has not yet started.
 
 A city is a settlement where houses are close or even adjacent to each other.
