@@ -15,6 +15,36 @@ nav_order: 1
 
 ---
 
+# Homestead
+
+{: .note }
+Homestead development has not yet started.
+
+Homesteads are isolated dwellings, often a single house or a main house with
+adjacent outbuildings.
+
+## Biomes
+
+The intention is to have homesteads for most of the biomes, as in real world
+people are able to settle nearly everywhere. Right now, homesteads are made
+available for the following biomes:
+
+- badlands (todo)
+- desert (todo)
+- plains (including sunflower plains) (todo)
+- savanna (including savanna plateau) (todo)
+- snowy plains (called `snowy`) (todo)
+- swamp (todo)
+- taiga (todo)
+
+## Homesteads in data pack
+
+In my data pack, homesteads can be found through `polygame:<name>_<biome>`. Ruined
+homesteads can be found as `polygame:ruined_<name_<biome>`. Unlike the other
+residential areas, homesteads are named after their specific name.
+
+An example of a homesteads would be `polygame:tavern_plains`.
+
 # Hamlets
 
 Hamlets are small municipalities with a few houses. It is characterized as a

@@ -3,7 +3,7 @@ layout: default
 title: Palette
 parent: Building Style
 grand_parent: Residential
-nav_order: 4
+nav_order: 2
 ---
 
 # Palette

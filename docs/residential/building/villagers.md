@@ -3,7 +3,7 @@ layout: default
 title: Villagers
 parent: Building Style
 grand_parent: Residential
-nav_order: 2
+nav_order: 1
 ---
 
 # Villagers

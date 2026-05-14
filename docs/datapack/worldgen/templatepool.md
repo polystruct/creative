@@ -51,6 +51,7 @@ want to retain - there are others in it that I want to adjust):
 | Build class | Description | Subdirectory structure |
 |:------------|:------------|:-----------------------|
 | camp | Places where hikers might have set up, currently containing tents | build |
+| homestead | A small, isolated dwelling | build |
 | hamlet | Smallest residential area | build |
 | village | Regular residential area | build |
 | town | More centralized residential area | build |
